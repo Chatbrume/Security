@@ -34,13 +34,13 @@ public class Launcher
             }
             else if(arg.equals("-all") || arg.equals("--all_algo"))
             {
-                DemoProvider.getAllAlgo();
+                DemoService.getAllService();
                 break;
             }
             else if(arg.equals("-nb") || arg.equals("--nb_algo"))
             {
                 if( i+1 < args.length )
-                    DemoProvider.getNbAlgoByType(args[i+1]);
+                    DemoService.getNbServiceByType(args[i+1]);
                 else
                     System.out.println("The argument [-nb, --nb_algo] need a second argument !");
                 break;
@@ -48,7 +48,7 @@ public class Launcher
             else if(arg.equals("-ls") || arg.equals("--list_algo"))
             {
                 if( i+1 < args.length )
-                    DemoProvider.getListAlgoByType(args[i+1]);
+                    DemoService.getListServiceByType(args[i+1]);
                 else
                     System.out.println("The argument [-ls, --list_algo] need a second argument !");
             }
