@@ -1,0 +1,8 @@
+/* AUTOMATICALLY GENERATED ON Mon Mar 14 12:50:55 CET 2022*/
+/* DO NOT EDIT */
+
+grant codeBase "file:/C:/Users/Amelie/Documents/Cours/Master/ILW/" {
+  permission java.util.PropertyPermission "user.home", "read";
+  permission java.util.PropertyPermission "java.home", "read";
+};
+
